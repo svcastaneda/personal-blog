@@ -18,6 +18,7 @@ body {
     font-size: 36pt;
     text-decoration: none;
 	text-align: center;
+	min-width: 500px;
 }
 
 .content {
@@ -28,10 +29,12 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Vast Shadow', cursive;
+	margin-top: 10px;
 }
 
 .date {
-/*    float: right;*/
+    float: right;
+	margin: 7px 0px;
     color: #828282;
 	font-size: 12px;
 	opacity: 0.8;
@@ -48,7 +51,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 20pt;
     margin-right: 20px;
 }
 
