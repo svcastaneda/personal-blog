@@ -1,0 +1,66 @@
+body {
+	background-color: #B2D9D9;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.header {
+    background-color: #008080;
+    margin-top: 0;
+    padding: 10px 20px 20px 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.header h1, .header h1 a, .header h1 a:visited, .header h1 a:active {
+    color: #F7FBFB;
+    font-size: 36pt;
+    text-decoration: none;
+	text-align: center;
+}
+
+.content {
+    margin-left: auto;
+	margin-right: auto;
+	padding-top: 115;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Vast Shadow', cursive;
+}
+
+.date {
+/*    float: right;*/
+    color: #828282;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-top: 20px;
+	font-family: 'Quicksand', sans-serif;
+	border: dotted black 2px;
+	border-radius: 15px;
+	padding: 0px 15px 10px 15px;
+	background-color: #F7FBFB;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
